@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+form {
+	display: flex;
+	flex-flow: column;
+	padding: 1rem;
+
+	label {
+		display: block;
+		font-weight: 600;
+		margin-top: 1rem;
+		margin-bottom: 0.2rem;
+	}
+
+	input {
+		display: block;
+		border: 2px solid black;
+		padding: 0.2rem;
+		max-width: 200px;
+		outline: none;
+	}
+}
